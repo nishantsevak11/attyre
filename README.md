@@ -1,75 +1,52 @@
-AI-Powered Color Analysis Tool
-Project Overview
-This project is an AI-powered color analysis tool designed to help users discover colors that enhance their natural beauty, match their unique features, and fit their personal style. The tool allows users to upload a photo and pick colors based on their features such as skin tone, hair color, and eye color. After inputting additional preferences, users will receive a personalized color palette.
+# AI-Powered Color Analysis Tool
 
-The project is built using React.js, CSS, and Tailwind CSS. A mock API is implemented using Mirage JS to simulate the color palette generation process, which can later be replaced with a real API.
+## Overview
+Welcome to the **AI-powered color analysis tool** project! This tool helps users discover the colors that enhance their natural beauty, match their unique features, and fit their personal style. The user can upload their photo, pick colors, and input additional information to generate a personalized color palette.
 
-Features
-Image Upload: Users can upload their photo to start the color analysis process.
-Personalized Color Palette: After uploading the photo, users can pick their hair, eye, and skin color, and generate a personalized color palette.
-Feature Display: The features of the website are dynamically displayed using a JavaScript object, making it easy to update and manage.
-Color Picker API: Integrated to allow users to pick specific colors from their image.
-Context API: Data is stored in Context API for easy state management across components.
-Responsive Design: The website is fully responsive, ensuring an optimal experience across desktop, tablet, and mobile devices.
-Image Change in Palette Section: Users can change their image after the initial upload to see how the color palette adapts.
-Mock API Integration: Mirage JS is used for simulating the API to generate color palettes. This mock API can be replaced with a real API later.
-Technologies Used
-React.js: For building the user interface and managing state.
-CSS & Tailwind CSS: For styling and layout.
-Mirage JS: For simulating the API calls and generating mock data.
-Context API: For managing state across the app.
-Project Structure
-The project structure is as follows:
+## Features
+- **Image Upload**: Users can upload their photo for analysis.
+- **Color Picker**: Users can select their hair, eye, and skin color from the uploaded image to match the colors.
+- **Personalized Palette**: After selecting the colors, the app generates a personalized color palette.
+- **Dynamic Feature Display**: All features of the website are dynamically displayed using a JavaScript object.
+- **Responsive Design**: The website is fully responsive and works well across all devices.
 
-bash
-Copy code
-public/ # context Api and all the assets
-/src
-  /components      # React components for different sections (e.g., Navbar, Hero Section)
+## Tech Stack
+- **Frontend**: React.js, CSS, Tailwind CSS
+- **API**: Mock API using Mirage.js
+- **State Management**: Context API
+
+## Project Structure
+The project consists of several main components:
+
+### 1. **Home Page**
+   - **Navbar**: Contains navigation links.
+   - **Hero Section**: Users can upload their images.
+   - **Features Section**: A list of all website features, displayed dynamically.
+   
+### 2. **Palette Section**
+   - After the image upload, the user can view and select colors from the uploaded image.
+   - The **color picker API** allows users to pick hair, eye, and skin colors from the photo. (Note: The `eyePicker` API is not compatible with all browsers.)
+   - Additional information can be selected to refine the palette.
+
+### 3. **Palette Page**
+   - After generating the palette, users are redirected to a new page where they can view their recommended color palettes.
+   
+### 4. **Mobile View**
+   - **Hamburger Menu**: The mobile view uses a hamburger menu. The structure is set up, but content still needs to be added.
+
+## How It Works
+1. Users upload a photo through the **Hero Section**.
+2. After uploading, they can select their hair, eye, and skin color from the image using the **color picker API**.
+3. Additional information (such as preferences) is collected.
+4. When the user clicks on **Generate Palette**, the selected data is saved in the **Context API**.
+5. The user is then navigated to the **Palette Page**, where the generated color palettes are displayed.
+
+## Links
+
+[Live App Link](https://attyre-nishant-sevaks-projects.vercel.app/)
+[GitHub Repository](https://github.com/nishantsevak11/attyre)
 
 
-Additional Features:
-Image Upload & Change: Users can upload and change their image in the Palette section.
-Mobile View: The project is fully responsive, with a hamburger menu for mobile view (content needs to be added).
-Loading Animation: Pending feature for loading animations during image upload and color palette generation.
-Installation
-To get started with this project, follow the steps below:
 
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/nishantsevak11/attyre.git
-Navigate to the project directory:
 
-bash
-Copy code
-cd attyre
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-Visit the app: Open your browser and navigate to:
-
-arduino
-Copy code
-http://localhost:3000
-Known Issues
-Browser Compatibility: The eye-picker API is not fully compatible with all browsers. This may cause issues in some environments.
-Mobile View Setup: The hamburger menu for mobile view is set up, but the content still needs to be added.
-Live Demo
-You can view the live application hosted on Vercel:
-
-Live App Link : https://attyre-nishant-sevaks-projects.vercel.app/
-
-GitHub Repository : https://github.com/nishantsevak11/attyre
-
-Contact
-Email: nishantsevak7989@gmail.com
-LinkedIn: (https://www.linkedin.com/in/nishantsevak/))
