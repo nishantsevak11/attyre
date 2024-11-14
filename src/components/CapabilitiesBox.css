@@ -1,0 +1,11 @@
+.capabilities-box {
+    transition: transform 0.3s ease;
+  }
+  
+  .capabilities-box:hover {
+    transform: scale(1.25);
+  }
+  
+  img {
+    object-fit: contain;
+  }

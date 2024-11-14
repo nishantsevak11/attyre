@@ -1,0 +1,59 @@
+{
+    "palettes": [
+      {
+        "skin_tone": "warm",
+        "hair_color": "dark",
+        "eye_color": "brown",
+        "palette_Name": "Autumn Harmony",
+        "palette_Description": "A warm, earthy palette that complements the skin's warm undertones, emphasizes the depth of darker hair, and enhances the richness of brown eyes. This palette is perfect for a classic yet modern look, capturing the essence of autumn.",
+        "recommended_colors": [
+          {
+            "color_name": "Forest Green",
+            "hex_code": "#228B22",
+            "usage": "main",
+            "description": "A rich green that harmonizes with the warm undertones of autumn."
+          },
+          {
+            "color_name": "Rust",
+            "hex_code": "#B7410E",
+            "usage": "main",
+            "description": "A warm, earthy red-brown that brings out the natural warmth in the skin tone."
+          },
+          {
+            "color_name": "Burnt Orange",
+            "hex_code": "#CC5500",
+            "usage": "main",
+            "description": "A vibrant orange that adds a modern twist to classic autumn tones."
+          }
+        ]
+      },
+      {
+        "skin_tone": "neutral",
+        "hair_color": "light",
+        "eye_color": "blue",
+        "palette_Name": "Winter Cool",
+        "palette_Description": "A cool-toned palette that complements neutral skin tones, light hair, and blue eyes, offering a fresh, wintery aesthetic.",
+        "recommended_colors": [
+          {
+            "color_name": "Icy Blue",
+            "hex_code": "#A2CFFE",
+            "usage": "main",
+            "description": "A cool blue that brings out the clarity of blue eyes."
+          },
+          {
+            "color_name": "Charcoal Gray",
+            "hex_code": "#36454F",
+            "usage": "main",
+            "description": "A deep gray that contrasts beautifully with lighter hair."
+          },
+          {
+            "color_name": "Platinum Blonde",
+            "hex_code": "#E1E1E1",
+            "usage": "accent",
+            "description": "A cool blonde that accentuates the neutral tones."
+          }
+        ]
+      }
+    ]
+  }
+  

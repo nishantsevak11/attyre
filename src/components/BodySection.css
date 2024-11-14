@@ -1,0 +1,20 @@
+.header p {
+    color: #4b5563; /* Optional: Adjust text color */
+  }
+  
+  .header h4 {
+    
+    margin-top: 8px;
+    font-size: 1.5rem;
+  }
+  
+
+  .other {
+    gap: 1.5rem;
+  }
+  
+  .cap{
+    color: #F63D68 !important;
+    text-align: center !important;
+    font-weight: 600;
+  }
